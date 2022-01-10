@@ -1,38 +1,84 @@
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  border: 10px solid purple;
+  font-family: "Poppins", sans-serif;
+  color: rgb(181, 99, 181);
+  background: white;
+}
+
+a {
+  text-decoration: none;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header {
+  padding: 2em;
+  background-color: rgba(255, 218, 138, 0.753);
+  display: flex;
+  justify-content: space-around;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header ul {
+  display: flex;
+  list-style: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header ul li {
+  color: rgb(181, 99, 181);
+  font-weight: bold;
+  font-size: 1.3em;
+  margin: 0 3em;
+  
+}
+
+.book-container {
+  color: rgb(181, 99, 181);
+  background: rgba(255, 218, 138, 0.753);
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 2em;
+  margin: 2em auto;
+  width: 50%;
+  border: 10px solid darkorange;
 }
 
-.App-link {
-  color: #61dafb;
+.book-image {
+  margin: 0 auto;
+  height: flex;
+  width: flex;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.book-title {
+  display: flex;
+  justify-content: center;
+}
+
+.book-description {
+  display: flex;
+  align-self: center;
+  margin-left: 2em;
+}
+
+.book-info {
+  display: flex;
+}
+
+.footer {
+  padding: 1em;
+  font-weight: bold;
+  background: rgba(255, 218, 138, 0.753);
+}
+
+.App {
+  text-align: center;
 }
